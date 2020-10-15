@@ -1,0 +1,32 @@
+.Mega {
+    font-size: 1.0rem;
+    margin: 5px;
+}
+
+.Mega input {
+    font-size: 1.4rem;
+    width: 40px;
+    margin: 5px;
+}
+
+.Mega .Qtd .Tamanho{
+    margin: 2px;
+}
+
+.Mega .Qtd{
+    margin: 5px;
+}
+
+.Mega h3{
+    margin: 5px;
+    font-size: 1.4rem;
+}
+
+.Mega button {
+    margin-bottom: 15px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1.4rem;
+}
