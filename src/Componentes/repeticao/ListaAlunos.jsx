@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../data/alunos'
 import alunos from '../../data/alunos'
 
 export default props => {
