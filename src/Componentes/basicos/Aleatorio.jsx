@@ -8,10 +8,9 @@ export default (props) => {
 
     return (
         <div>
-            <h2> O numero aleatorio é: </h2>
-            <h2> Valor min: {min} </h2>
-            <h2> Varlo max: {max} </h2>
-            <h2> <strong> {numero} </strong> </h2>
+            <p> Valor min: {min} </p>
+            <p> Varlo max: {max} </p>
+            <p> O numero aleatorio é: <strong> {numero} </strong></p>
         </div>
     )
 } 

@@ -8,7 +8,7 @@ export default props => {
         <div>
             <div>Filho</div>
             <div>
-                <button onClick={_ => cb(nome, 53, true)}>
+                <button onClick={_ => cb(nome, 26, true)}>
                 Solicitar informações sobre o Pai
                 </button>
             </div>

@@ -1,23 +1,23 @@
-import './index.css'
 import './App.css'
 import React from 'react'
-import Primeiro from './Componentes/basicos/Primeiro'
-import ComParametro from './Componentes/basicos/ComParametro'
-import Fragmento from './Componentes/basicos/Fragmento'
-import Aleatorio from './Componentes/basicos/Aleatorio'
+
 import Card from './Componentes/Layout/Card'
+
+import Mega from './Componentes/mega/Mega'
+import Contador from './Componentes/contador/Contador'
+import Input from './Componentes/formulario/input'
+import IndiretaPai from './Componentes/comunicacao/IndiretaPai'
+import DiretaPai from './Componentes/comunicacao/DiretaPai'
+import UsuarioInfo from './Componentes/condicional/UsuarioInfo'
+import ParOuImpar from './Componentes/condicional/ParOuImpar'
+import TabelaProdutos from './Componentes/repeticao/TabelaProdutos'
+import ListaAlunos from './Componentes/repeticao/ListaAlunos'
 import Familia from './Componentes/basicos/Familia'
 import FamiliaMembro from './Componentes/basicos/FamiliaMembro'
-import ListaAlunos from './Componentes/repeticao/ListaAlunos'
-import TabelaProdutos from './Componentes/repeticao/TabelaProdutos'
-import ParOuImpar from './Componentes/condicional/ParOuImpar'
-import UsuarioInfo from './Componentes/condicional/UsuarioInfo'
-import DiretaPai from './Componentes/comunicacao/DiretaPai'
-import IndiretaPai from './Componentes/comunicacao/IndiretaPai'
-import Input from './Componentes/formulario/input'
-import Contador from './Componentes/contador/Contador'
-import Mega from './Componentes/mega/Mega'
-
+import Aleatorio from './Componentes/basicos/Aleatorio'
+import Fragmento from './Componentes/basicos/Fragmento'
+import ComParametro from './Componentes/basicos/ComParametro'
+import Primeiro from './Componentes/basicos/Primeiro'
 
 export default () =>
     <div className="App">

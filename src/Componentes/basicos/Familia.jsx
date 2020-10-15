@@ -1,5 +1,4 @@
-import React from 'react'
-import { cloneElement } from 'react'
+import React, { cloneElement } from "react";
 
 export default props => {
     return (
