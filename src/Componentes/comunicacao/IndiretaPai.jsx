@@ -11,11 +11,14 @@ export default props => {
         setIdade(idade)
         setNerd(nerd)
     }
+
     return (
         <div>
             <div>{nome}</div>
             <div>{idade}</div>
             <div>{nerd ? "Verdadeiro" : "Falso"}</div>
+            {/* Enviando a função fornecerInformacoes para o filho, 
+            para que ele devolta com os valores que serão repassados de lá para cá */}
             <IndiretaFilho quandoClicar={fornecerInformacoes}></IndiretaFilho>
         </div>
     )
